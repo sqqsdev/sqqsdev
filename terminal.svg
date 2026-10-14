@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310">
+  <defs>
+    <style>
+      text { font-family: Consolas, 'Courier New', monospace; font-size: 15px; fill: #C0C4D6; white-space: pre; }
+      .p   { fill: #7F86B0; }
+      .ok  { fill: #3FCF8E; }
+      .hi  { fill: #FFFFFF; }
+      .ln  { opacity: 0; animation: show .35s ease-out forwards; }
+      .l1 { animation-delay: .3s }  .l2 { animation-delay: 1.0s } .l3 { animation-delay: 1.6s }
+      .l4 { animation-delay: 2.2s } .l5 { animation-delay: 2.8s } .l6 { animation-delay: 3.4s }
+      .l7 { animation-delay: 4.0s } .l8 { animation-delay: 4.8s }
+      .cur { animation: blink 1s steps(1) infinite; animation-delay: 4.8s; opacity: 0; }
+      @keyframes show  { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: translateX(0) } }
+      @keyframes blink { 0% { opacity: 1 } 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="759" height="309" rx="12" fill="#0B0F2B" stroke="#3A3F66"/>
+  <rect x="0.5" y="0.5" width="759" height="36" rx="12" fill="#1B2045"/>
+  <rect x="0.5" y="24" width="759" height="13" fill="#1B2045"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="62" cy="18" r="6" fill="#28C840"/>
+  <text x="380" y="23" text-anchor="middle" style="font-size:13px; fill:#7F86B0">~/engineer — zsh</text>
+
+  <text class="ln l1" x="24" y="70"><tspan class="p">$</tspan> <tspan class="hi">./boot --engineer</tspan></text>
+  <text class="ln l2" x="24" y="100"><tspan class="p">&gt;</tspan> loading frontend ....... React · Next · Vue <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l3" x="24" y="128"><tspan class="p">&gt;</tspan> loading backend ........ Node · NestJS · Laravel <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l4" x="24" y="156"><tspan class="p">&gt;</tspan> loading mobile ......... React Native · Expo <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l5" x="24" y="184"><tspan class="p">&gt;</tspan> connecting data ........ Postgres · Mongo · Redis <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l6" x="24" y="212"><tspan class="p">&gt;</tspan> mounting cloud ......... AWS · Docker · CI/CD <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l7" x="24" y="240"><tspan class="p">&gt;</tspan> injecting AI ........... OpenAI API <tspan class="ok" x="700">✓</tspan></text>
+  <text class="ln l8" x="24" y="276"><tspan class="p">$</tspan> <tspan class="hi">status:</tspan> <tspan class="ok">ready to ship</tspan></text>
+  <rect class="cur" x="236" y="263" width="9" height="17" fill="#C0C4D6"/>
+</svg>
